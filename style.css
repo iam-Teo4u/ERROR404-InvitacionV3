@@ -67,10 +67,7 @@ br {
 	z-index: 1;
 	text-shadow: 0 0 3px;
 }
-.jumbo .text h1,
-.jumbo .text svg,
-.jumbo .text a {
-	animation: shine 32s linear infinite;
+
 }
 @keyframes shine {
 	0% {
