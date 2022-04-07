@@ -108,13 +108,7 @@ br {
 
 /* If you want to make a pulse animation with a text-shadow, instead of trying to animate the text-shadow property itself, I recommend creating a pseudo-element (:after or :before) with a text-shadow attached to it and animate its opacity. Animating the text-shadow property will look clunky since the blur radius only accepts pixels. */
 
-.jumbo h1:after {
-	content: 'ERROR 404';
-	position: absolute;
-	left: 0;
-	text-shadow: 0 0 23px;
-	opacity: 0;
-	animation: pulse 4s infinite ease-in-out alternate;
+.jumbo
 }
 @keyframes pulse {
 	to {
